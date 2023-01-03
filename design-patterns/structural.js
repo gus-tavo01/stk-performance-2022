@@ -10,7 +10,12 @@ function xmlToJson(xml) {
 // Adaptee
 class XMLApi {
   specificXMLRequest() {
-    return `xml stuff`;
+    return `<?xml version="1.0" encoding="UTF-8" ?>
+    <root>
+      <name>Jhon</name>
+      <lastName>Doe</lastName>
+      <age>90</age>
+    </root>`;
   }
 }
 
